@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import gql from 'graphql-tag';
 import { Mutation } from 'react-apollo';
 import query from './query';
-import { makeHTTPRequestHeaders } from 'apollo-engine-reporting/dist/extension';
 
 const addUser = gql`
     mutation makeUser($name: String!) {

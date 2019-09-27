@@ -22,6 +22,7 @@ npm install
 ```
 ## Run React app
 ```bash
+cd fleet-app
 PORT=8080 npm start
 ```
 
